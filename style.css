@@ -28,3 +28,41 @@ footer {
     text-align: center;
     width: 100%;
 }
+/* Estilos para o Painel de Cabeçalho */
+.header-painel {
+    width: 100%;
+    background-color: #fce4ec; /* Rosa bem claro, como na sua interface final */
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    /* Configuração Flexbox para alinhar os elementos (ícone - título) */
+    display: flex;
+    justify-content: space-between; /* Espaça o ícone de menu e o título */
+    align-items: center;
+    max-width: 540px; /* Mantém a mesma largura dos módulos */
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+/* Estilos para o Título Principal no Painel */
+.main-title {
+    font-size: 1.2em; /* Tamanho do título */
+    color: #333;
+    font-weight: bold;
+    margin: 0; /* Remove margem padrão */
+    text-align: center;
+    flex-grow: 1; /* Permite que ocupe o espaço restante */
+}
+
+/* Estilos para o Ícone de Menu (Hambúrguer) */
+.menu-icon {
+    font-size: 1.5em;
+    color: #333;
+    cursor: pointer;
+    z-index: 100;
+}
+
+/* Estilos para o Ícone de Coração */
+.heart-icon {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
